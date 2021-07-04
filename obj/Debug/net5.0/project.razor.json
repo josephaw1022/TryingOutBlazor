@@ -8,35 +8,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1850854398,
+        "HashCode": -27510188,
         "Kind": "Components.Component",
-        "Name": "WASMBlazor.Pages.FetchData",
+        "Name": "WASMBlazor.App",
         "AssemblyName": "WASMBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WASMBlazor.Pages.FetchData"
+          "Common.TypeName": "WASMBlazor.App"
         }
       },
       {
-        "HashCode": -693556245,
+        "HashCode": 13305437,
         "Kind": "Components.Component",
-        "Name": "WASMBlazor.Pages.FetchData",
+        "Name": "WASMBlazor.App",
         "AssemblyName": "WASMBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "WASMBlazor.Pages.FetchData"
+            "TagName": "WASMBlazor.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WASMBlazor.Pages.FetchData",
+          "Common.TypeName": "WASMBlazor.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -74,6 +74,39 @@
         }
       },
       {
+        "HashCode": -1850854398,
+        "Kind": "Components.Component",
+        "Name": "WASMBlazor.Pages.FetchData",
+        "AssemblyName": "WASMBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WASMBlazor.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -693556245,
+        "Kind": "Components.Component",
+        "Name": "WASMBlazor.Pages.FetchData",
+        "AssemblyName": "WASMBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WASMBlazor.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WASMBlazor.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1637068738,
         "Kind": "Components.Component",
         "Name": "WASMBlazor.Pages.Index",
@@ -103,39 +136,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "WASMBlazor.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -27510188,
-        "Kind": "Components.Component",
-        "Name": "WASMBlazor.App",
-        "AssemblyName": "WASMBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WASMBlazor.App"
-        }
-      },
-      {
-        "HashCode": 13305437,
-        "Kind": "Components.Component",
-        "Name": "WASMBlazor.App",
-        "AssemblyName": "WASMBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WASMBlazor.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WASMBlazor.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
