@@ -90,6 +90,24 @@ using WASMBlazor.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 3 "/Users/josephwhiteaker/Desktop/WASMBlazor/Pages/Index.razor"
+       
+
+    string[] technologies = new string[] { "@Blazor WASM", "TailwindCSS", "Github", "Netlify" };
+
+    char done = '✅';
+
+    int count = 0;
+
+    void increment()
+    {
+        count++;
+    }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

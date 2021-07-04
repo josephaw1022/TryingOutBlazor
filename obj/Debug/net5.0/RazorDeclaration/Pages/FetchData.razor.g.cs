@@ -91,25 +91,30 @@ using WASMBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 37 "/Users/josephwhiteaker/Desktop/WASMBlazor/Pages/FetchData.razor"
+#line 4 "/Users/josephwhiteaker/Desktop/WASMBlazor/Pages/FetchData.razor"
        
-    private WeatherForecast[] forecasts;
 
+    public class Article
+    {
+
+        public int id { get; set; }
+
+        public string title { get; set; }
+
+        public string content { get; set; }
+
+        public bool active { get; set; }
+
+        public string date { get; set; }
+    }
+
+    private Article[] articles;
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        articles = await Http.GetFromJsonAsync<Article[]>("https://joe-whiteaker-drf-blog.herokuapp.com/api/article");
+
     }
 
-    public class WeatherForecast
-    {
-        public DateTime Date { get; set; }
-
-        public int TemperatureC { get; set; }
-
-        public string Summary { get; set; }
-
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-    }
 
 #line default
 #line hidden

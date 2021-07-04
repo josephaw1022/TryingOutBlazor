@@ -407,10 +407,8 @@
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
-/Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs
-/Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/WASMBlazor.RazorComponent.output.cache
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/RazorDeclaration/WASMBlazor.dll
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/WASMBlazor.TagHelpers.input.cache
@@ -420,10 +418,8 @@
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/Razor/Pages/Counter.razor.g.cs
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
-/Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/Razor/Shared/SurveyPrompt.razor.g.cs
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs
-/Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/build-gz/I1Lirm+f.gz
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/build-gz/ZLoTo1NE.gz
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/build-gz/4h9VKdja.gz
@@ -622,7 +618,6 @@
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/staticwebassets/WASMBlazor.StaticWebAssets.Manifest.cache
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/staticwebassets/WASMBlazor.StaticWebAssets.xml
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
-/Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/scopedcss/bundle/WASMBlazor.styles.css
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/scopedcss/projectbundle/WASMBlazor.bundle.scp.css
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/WASMBlazor.RazorTargetAssemblyInfo.cache
@@ -630,3 +625,6 @@
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/WASMBlazor.dll
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/ref/WASMBlazor.dll
 /Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/WASMBlazor.pdb
+/Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/RazorDeclaration/Shared/Navbar.razor.g.cs
+/Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/Razor/Shared/Navbar.razor.g.cs
+/Users/josephwhiteaker/Desktop/WASMBlazor/obj/Debug/net5.0/scopedcss/Shared/Navbar.razor.rz.scp.css

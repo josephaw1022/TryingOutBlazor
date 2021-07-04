@@ -1,55 +1,61 @@
 ﻿@page "/fetchdata"
 @inject HttpClient Http
 
-<h1>Weather forecast</h1>
-
-<p>This component demonstrates fetching data from the server.</p>
-
-@if (forecasts == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var forecast in forecasts)
-            {
-                <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
-
 @code {
-    private WeatherForecast[] forecasts;
 
+    public class Article
+    {
+
+        public int id { get; set; }
+
+        public string title { get; set; }
+
+        public string content { get; set; }
+
+        public bool active { get; set; }
+
+        public string date { get; set; }
+    }
+
+    private Article[] articles;
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        articles = await Http.GetFromJsonAsync<Article[]>("https://joe-whiteaker-drf-blog.herokuapp.com/api/article");
+
     }
 
-    public class WeatherForecast
-    {
-        public DateTime Date { get; set; }
-
-        public int TemperatureC { get; set; }
-
-        public string Summary { get; set; }
-
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-    }
 }
+
+<div class="flex justify-center items-center min-h-screen">
+
+
+
+
+
+    @if (articles == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Id</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var forecast in articles)
+                {
+                    <tr>
+                        <td>@forecast.title</td>
+                        <td>@forecast.id</td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+</div>

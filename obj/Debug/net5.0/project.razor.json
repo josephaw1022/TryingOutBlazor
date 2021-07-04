@@ -74,39 +74,6 @@
         }
       },
       {
-        "HashCode": -1850854398,
-        "Kind": "Components.Component",
-        "Name": "WASMBlazor.Pages.FetchData",
-        "AssemblyName": "WASMBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WASMBlazor.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -693556245,
-        "Kind": "Components.Component",
-        "Name": "WASMBlazor.Pages.FetchData",
-        "AssemblyName": "WASMBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WASMBlazor.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WASMBlazor.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1637068738,
         "Kind": "Components.Component",
         "Name": "WASMBlazor.Pages.Index",
@@ -140,55 +107,68 @@
         }
       },
       {
-        "HashCode": -1026018928,
+        "HashCode": -1850854398,
         "Kind": "Components.Component",
-        "Name": "WASMBlazor.Shared.SurveyPrompt",
+        "Name": "WASMBlazor.Pages.FetchData",
         "AssemblyName": "WASMBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WASMBlazor.Shared.SurveyPrompt"
+          "Common.TypeName": "WASMBlazor.Pages.FetchData"
         }
       },
       {
-        "HashCode": 317742550,
+        "HashCode": -693556245,
         "Kind": "Components.Component",
-        "Name": "WASMBlazor.Shared.SurveyPrompt",
+        "Name": "WASMBlazor.Pages.FetchData",
         "AssemblyName": "WASMBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "WASMBlazor.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "WASMBlazor.Pages.FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WASMBlazor.Shared.SurveyPrompt",
+          "Common.TypeName": "WASMBlazor.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1561608187,
+        "Kind": "Components.Component",
+        "Name": "WASMBlazor.Shared.Navbar",
+        "AssemblyName": "WASMBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Navbar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WASMBlazor.Shared.Navbar"
+        }
+      },
+      {
+        "HashCode": -668609933,
+        "Kind": "Components.Component",
+        "Name": "WASMBlazor.Shared.Navbar",
+        "AssemblyName": "WASMBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WASMBlazor.Shared.Navbar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WASMBlazor.Shared.Navbar",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -285,39 +265,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "WASMBlazor.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 340835275,
-        "Kind": "Components.Component",
-        "Name": "WASMBlazor.Shared.NavMenu",
-        "AssemblyName": "WASMBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WASMBlazor.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 1063071449,
-        "Kind": "Components.Component",
-        "Name": "WASMBlazor.Shared.NavMenu",
-        "AssemblyName": "WASMBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WASMBlazor.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WASMBlazor.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13024,19 +12971,14 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/josephwhiteaker/Desktop/WASMBlazor/Shared/NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
+      "FilePath": "/Users/josephwhiteaker/Desktop/WASMBlazor/Shared/Navbar.razor",
+      "TargetPath": "Shared\\Navbar.razor",
       "FileKind": "component"
     },
     {
       "FilePath": "/Users/josephwhiteaker/Desktop/WASMBlazor/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "/Users/josephwhiteaker/Desktop/WASMBlazor/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
     },
     {
       "FilePath": "/Users/josephwhiteaker/Desktop/WASMBlazor/Pages/Counter.razor",

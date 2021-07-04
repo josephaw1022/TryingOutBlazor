@@ -1,16 +1,10 @@
 @inherits LayoutComponentBase
 
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
-    <div class="main">
-        <div class="top-row px-4">
-            <a href="http://blazor.net" target="_blank" class="ml-md-auto">About</a>
-        </div>
-
-        <div class="content px-4">
+    <div class="h-min-screen w-min-full overflow-x-hidden ">
+        <Navbar />
+        <div
+            class="h-min-screen w-min-full overflow-x-hidden bg-gradient-to-r from-yellow-300 via-green-300 to-pink-300 ">
             @Body
         </div>
     </div>
